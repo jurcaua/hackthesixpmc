@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
         container     : document.querySelector('#waveform'),
         waveColor     : 'cyan',
         progressColor : '#007f80',
-        cursorColor   : 'white'
+        cursorColor   : 'white',
+		platformColor : 'white'
     };
 
     if (location.search.match('scroll')) {

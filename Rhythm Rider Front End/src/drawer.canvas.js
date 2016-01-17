@@ -114,6 +114,7 @@ WaveSurfer.util.extend(WaveSurfer.Drawer.Canvas, {
             for (var i = 0; i < width; i += step) {
                 var h = Math.round(peaks[Math.floor(i * scale)] / absmax * halfH);
                 cc.fillRect(i + $, halfH - h + offsetY, bar + $, h * 2);
+				cc.fillRect(i + $ - 20, halfH - h + offsetY, bar + $ + 10, 10);
             }
         }, this);
     },
